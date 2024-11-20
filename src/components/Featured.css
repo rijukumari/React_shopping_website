@@ -1,0 +1,112 @@
+.session{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.heads h1{
+    position:absolute;
+    text-transform: uppercase;
+    left: 45%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+   
+
+}
+.cart{
+
+    margin-top: 5%;
+    /* flex-wrap: wrap; */
+    display: flex;
+    justify-content: space-between;
+}
+.card_1{
+    height: 55vh;
+    margin-right: 3%;
+    padding: 0px 10px 0px 0px;
+
+    box-shadow: 0px 0px 2px 1px  gray;
+
+}
+.cart .head p{
+    text-align: center;
+    margin: 4%;
+    font-weight: 700;
+}
+
+.card_2{
+    height: 55vh;
+    padding: 0px 10px 0px 0px;
+    margin-left: 5%;
+    box-shadow: 0px 0px 2px 1px  gray;
+
+
+}
+.card_3{
+    height: 55vh;
+    padding: 0px 10px 0px 0px;
+    box-shadow: 0px 0px 2px 1px  gray;
+    margin-left: 7%;
+
+
+}
+.buy{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.card_4{
+    /* padding: 0px 40px 0px 0px; */
+    box-shadow: 0px 0px 2px 1px  gray;
+    margin-left: 7%;
+
+
+}
+.buy head{
+    margin: 7%;
+}
+.buy .head h1{
+    margin: 4%;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 15%;
+
+}
+.head a{
+    margin-left: 9%;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+
+
+}
+
+ .head .btn{
+    margin-left: 15%;
+    background: none;
+    font-size: 16px;
+    text-align: center;
+
+}
+.head p{
+    margin-left: 11%;
+}
+.card_4 img{
+    margin-left: 30%;
+    width: 70%;
+}
+.card_5{
+    box-shadow: 0px 0px 2px 1px  gray;
+    margin-left: 7%;
+
+
+}
+.card_5 img{
+    margin-left: 30%;
+    width: 70%;
+}
